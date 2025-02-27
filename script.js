@@ -1,7 +1,8 @@
 'use strict'
 
 // WebSocket 接続を作成
-const socket = new WebSocket("ws://localhost:3000");
+//const socket = new WebSocket("ws://localhost:3000");
+const socket = new WebSocket("wss://bun-test-1.onrender.com");
 
 // 接続が開いたときのイベント
 socket.addEventListener("open", (event) => {
